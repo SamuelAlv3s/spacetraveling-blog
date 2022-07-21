@@ -59,7 +59,7 @@
                 "label": "body",
                 "placeholder": "",
                 "allowTargetBlank": true,
-                "single": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
+                "multi": "paragraph,preformatted,strong,em,hyperlink,image,embed,list-item,o-list-item,rtl"
               }
             }
           }
