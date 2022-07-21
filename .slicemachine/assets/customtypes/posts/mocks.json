@@ -1,0 +1,61 @@
+{
+  "id": "db5c4d89-a722-4793-ac2f-3828eb8126f6",
+  "uid": "dolores-placeat-tempora",
+  "type": "posts",
+  "data": {
+    "title": "transition innovative e-business",
+    "subtitle": "reintermediate distributed interfaces",
+    "author": "orchestrate world-class ROI",
+    "banner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=900&h=500&fit=crop"
+    },
+    "content": [
+      {
+        "heading": "optimize bleeding-edge web-readiness",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Eiusmod est minim sint mollit. Excepteur aute excepteur esse esse aute.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "whiteboard next-generation experiences",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Tempor eiusmod cillum reprehenderit dolore eiusmod exercitation fugiat irure nostrud laborum reprehenderit irure magna ex Lorem. Voluptate laboris voluptate ullamco pariatur pariatur ex nisi fugiat minim officia cillum eu magna mollit ipsum.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "maximize cross-media partnerships",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Tempor tempor excepteur minim do ipsum cupidatat duis id velit culpa eiusmod dolore duis. Labore in eiusmod do ex labore commodo elit in et elit. Exercitation id irure nisi pariatur eiusmod.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "heading": "cultivate clicks-and-mortar partnerships",
+        "body": [
+          {
+            "type": "paragraph",
+            "text": "Deserunt aliquip elit elit.",
+            "spans": []
+          }
+        ]
+      }
+    ]
+  }
+}
