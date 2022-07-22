@@ -10,6 +10,7 @@ import styles from './home.module.scss';
 
 import {FiUser, FiCalendar} from 'react-icons/fi'
 import { useState } from 'react';
+import Link from 'next/link';
 
 interface Post {
   uid?: string;
@@ -66,7 +67,8 @@ export default function Home({postsPagination}: HomeProps) {
       <main className={styles.container}>
         <div className={styles.postsContainer}>
          {posts.map(post => (
-          <a className={styles.post} key={post.uid}>
+          <Link href={`/post/${post.uid}`} key={post.uid}>
+            <a className={styles.post}>
           <strong>{post.data.title}</strong>
           <p>{post.data.subtitle}</p>
           <span>
@@ -80,6 +82,7 @@ export default function Home({postsPagination}: HomeProps) {
             </small>
           </span>
           </a>
+          </Link>
          )
            
          )}
