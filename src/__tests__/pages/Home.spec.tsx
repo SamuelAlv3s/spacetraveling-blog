@@ -1,9 +1,8 @@
-
-
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import { GetStaticPropsContext } from 'next';
 import { ParsedUrlQuery } from 'querystring';
-import { RouterContext } from 'next/dist/next-server/lib/router-context';
+// import { RouterContext } from 'next/dist/next-server/lib/router-context';
+import Router from 'next/router';
 
 import { getPrismicClient } from '../../services/prismic';
 import App, { getStaticProps } from '../../pages';
@@ -67,7 +66,7 @@ let RouterWrapper;
 describe('Home', () => {
   beforeAll(() => {
     mockedPush.mockImplementation(() => Promise.resolve());
-    const MockedRouterContext = RouterContext as React.Context<unknown>;
+    const MockedRouterContext = Router as React.Context<unknown>;
     RouterWrapper = ({ children }): JSX.Element => {
       return (
         <MockedRouterContext.Provider
